@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <article data-testid="test-profile-card">
+        <figure>
+            <img
+                src= "My Profile Picture.jpg"
+                alt="Profile photo"
+                data-testid="test-user-avatar"
+            />
+        </figure>
+
+        <div class="text-content">
+            <header>
+                <h2 data-testid="test-user-name">Abdulazeez Abdullah</h2>
+            </header>
+
+            <p data-testid="test-user-bio">
+                Passionate frontend developer learning new technologies.
+            </p>
+
+            <p>
+                Current time in milliseconds: 
+                <span data-testid="test-user-time"></span>
+            </p>
+
+            <nav aria-label="Social Links" data-testid="test-user-social-links">
+                <ul>
+                    <li><a href="https://x.com/atronx20?t=bE2Xcj_qYr_3e6sZ0eOeww&s=09" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+                    <li><a href="https://github.com/Abdullah-Abdulazeez" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/abdulazeez-abdullah-0b6014254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+                </ul>
+            </nav>
+
+            <section data-testid="test-user-hobbies">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Coding</li>
+                    <li>Football</li>
+                    <li>Reading</li>
+                    <li>Watching Anime</li>
+                    <li>Eating</li>
+                </ul>
+            </section>
+
+            <section data-testid="test-user-dislikes">
+                <h3>Dislikes</h3>
+                <ul>
+                    <li>Messy code</li>
+                    <li>Not Understaning Something</li>
+                </ul>
+            </section>
+        </div>
+    </article>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

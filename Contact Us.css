@@ -1,0 +1,89 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+input,
+textarea {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
+.success {
+    margin-top: 1rem;
+    color: #28a745;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .contact-container {
+        padding: 1rem;
+    }
+}
